@@ -1,0 +1,17 @@
+h1 {
+    color:crimson;
+}
+body {/* Change the color of all links */
+a {
+    color: #ff4655; /* Valorant's red color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:visited {
+    color: #bd3944; /* A darker shade of Valorant's red */
+}
+a:hover {
+    color: midnightblue;/* Valorant's dark blue color */
+}
+    background-color:#0f1923;
+}
