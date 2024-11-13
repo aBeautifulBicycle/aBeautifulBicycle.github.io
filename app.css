@@ -1,6 +1,10 @@
 h1 {
     color:crimson;
 }
+
+h2 {
+    color:#7fffd4;
+}
 h4 {
     color:#7fffd4;
 }
@@ -11,17 +15,29 @@ p {
 li {
     color:#7fffd4;
 }
+
+dt {
+    color:#7fffd4;
+}
+
+dd {
+    color:#7fffd4;
+}
+
+tr {
+    color:#000000;
+}
 body {/* Change the color of all links */
 a {
-    color: #ff4655; /* Valorant's red color */
-    text-decoration: none; /* Remove underline */
+    color: #ff4655;
+    text-decoration: none; 
 }
 
 a:visited {
-    color: #bd3944; /* A darker shade of Valorant's red */
+    color: #bd3944; 
 }
 a:hover {
-    color: midnightblue;/* Valorant's dark blue color */
+    color: midnightblue;
 }
     background-color:#0f1923;
 }
