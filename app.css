@@ -1,23 +1,62 @@
 body {/* Change the color of all links */
     color:#7fffd4;
-tr {
-    color:#000000;
-}
-
-h1 {
-    color:crimson;
-}
-
-a {
-    color: #ff4655;
-    text-decoration: none; 
-}
-
-a:visited {
-    color: #bd3944; 
-}
-a:hover {
-    color: midnightblue;
-}
     background-color:#0f1923;
+    
+    header {
+        font-family: "consolas", sans-serif;
+        h1 {
+            margin: 0;
+            color:crimson;
+        }
+        a {
+            color: #ff4655;
+            text-decoration: none; 
+            font-size:12px;
+        }
+        
+        a:visited {
+            color: #bd3944; 
+        }
+        a:hover {
+            color: midnightblue;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li:first-child {
+            margin-left: 0;
+        }
+        
+    }
+
+    main {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        h1 {
+            font-family: "Press Start 2P", system-ui;
+            font-weight:400;
+            font-style:normal;
+            font-size:36px;
+            text-decoration: underline;
+        }
+        h2 {
+            font-family: "Press Start 2P", system-ui;
+        }
+        h3 {
+            font-family: "Press Start 2P", system-ui;
+        }
+        h4 {
+            font-family: "Press Start 2P", system-ui;
+        }
+        tr {
+            color:#000000;
+        }
+    }
 }
