@@ -31,6 +31,10 @@ tr {
 label {
     color:#7fffd4;
 }
+
+form {
+    color:#7fffd4;
+}
 body {/* Change the color of all links */
 a {
     color: #ff4655;
