@@ -27,6 +27,10 @@ dd {
 tr {
     color:#000000;
 }
+
+label {
+    color:#7fffd4;
+}
 body {/* Change the color of all links */
 a {
     color: #ff4655;

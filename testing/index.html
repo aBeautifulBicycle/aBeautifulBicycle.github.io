@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Second page of website 0.0</title>
+        <meta name="description" content="testing various html things">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="abeautifulbicycle">
+        <link rel="stylesheet" href="/app.css">
+        <!--<meta http-equiv="refresh" content="0.1"> this will make the website refresh every 0.1 seconds-->
+    </head>
+    <body>
+        <header>
+            <!-- comments -->
+            <h1>Midnight's Valorant Project</h1>
+            <nav>
+                <ul>
+                    <li><a href="/" title="home page">Home</a></li>
+                    <li><a href="testing">Super "secret" testing page</a></li>
+                    <li><a href="#rules">Rules</a></li>
+                    <li><a href="#signup">Signup</a></li>
+                    <li><a href="mailto:abeautifulbike@gmail.com">Email me!</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <p>This is normal text</p>
+            <p>This is <b>bold</b> text</p>
+            <p>This is <i>italic</i> text</p>
+            <p>This is <big>big</big> text</p>
+            <p>This is <small>small</small> text</p>
+            <p>This is <sub>subscript</sub>text</p>
+            <p>This is <sup>superscript</sup> text</p>
+            <p>This is <ins>inserted</ins></p>
+            <p>This is <del>deleted</del> text</p>
+            <p>This is <mark>marked</mark> text</p>
+
+            <h4>Unordered List</h4>
+            <ul>
+                <li>0.5 KG beef</li>
+                <li>0.5 KG onions</li>
+                    <ul>
+                        <li>Sublists are cool</li>
+                        <li>It's a lot of onions but it's so worth it</li>
+                    </ul>
+                <li>0.125 KG carrots</li>
+                <li>0.25 KG potatoes</li>
+            </ul>
+            <h4>Ordered List</h4>
+            <ol type="I">
+                <li>Learn how to make a website using html</li>
+                <li>Learn how to dress a website using css</li>
+                <li>Learn how to functionlize a website using javascript</li>
+                <li>Learn how to port java code into a website</li>
+                <li>Make cool Midnight website</li>
+            </ol>
+            <h4>Description List</h4>
+                <dl>
+                    <div style="background-color:#0099ff">
+                        <dt>HTML</dt>
+                        <dd>Hyper Text Markup Language</dd>
+                        <dt>CSS</dt>
+                        <dd>Cascading Style Sheets</dd>
+                        <dt>JavaScript</dt>
+                        <dd><span style="color:#00ff00">Programming language</span> used in web development</dd>
+                    </div>
+                </dl>
+            <h2>Tables</h2>
+
+            <table bgcolor=#000000 align="center" width="800">
+                
+                <tr bgcolor=#77a21f align="center">
+                    <th width="200">Name</th>
+                    <th width="200">Role</th>
+                    <th width="200">Overall skill</th>
+                    <th width="200">Potential</th>
+                </tr>
+                <tr bgcolor=#cf00cf align="center">
+                    <td>Bike</td>
+                    <td>Flex</td>
+                    <td align="right">7</td>
+                    <td align="right">7.2</td>
+                </tr>
+                <tr bgcolor=#cf00cf align="center">
+                    <td>Midnight</td>
+                    <td>Initiator</td>
+                    <td align="right">12</td>
+                    <td align="right">200</td>
+                </tr>
+            </table>
+
+            <h2>iframes</h2>
+            <iframe src="https://abeautifulbicycle.github.io/page2/" width="1255" height="450" frameborder="0"></iframe>
+            
+            <h2>Buttons</h2>
+            <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" if button is clicked sends user to this website> -->
+            <button onclick="buttonTest()" style="background-color:#ff00ff;color:#123456;border-radius:5px">Click me :O</button>
+
+            <p id="testButton">Not clicked!</p>
+            
+            <h2>Forms</h2>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Rick" required><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Astley" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="never.gonna.what@gmail.com" required><br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd" required><br><br>
+
+                <label for="tel">Phone#:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" required><br><br>
+
+                <label for="dob">Birthdate:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" required><br><br>
+                <div>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1">I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2">I have a car</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3">I have a boat</label><br><br>
+                    <input type="radio" id="gender1" name="gender" value="male">
+                    <label for="gender1">Male</label>
+                    <input type="radio" id="gender2" name="gender" value="female">
+                    <label for="gender2">Female</label>
+                </div>
+
+                <div>
+                    <label for="dropdowns">Dropdowns ^-^:</label>
+                    <select id="dropdowns" name="dropdowns">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="reset">
+                </div>
+
+                
+                <input type="submit" value="Submit"><br><br>
+            </form>
+
+        </main>
+        <script src="/app.js" async defer></script>
+    </body>
+</html>
