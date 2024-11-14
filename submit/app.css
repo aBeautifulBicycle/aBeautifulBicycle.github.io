@@ -1,0 +1,44 @@
+
+body {
+    color:#7fffd4;
+    background-color:#0f1923;
+header {
+    font-family: "consolas", sans-serif;
+    text-align: center;
+    
+    background-color: rgb(15,25,35);
+    h1 {
+        font-size:60px;
+        color:crimson;
+        
+    }
+    a {
+        color: #ff4655;
+        text-decoration: none; 
+        font-size:12px;
+    }
+    
+    a:visited {
+        color: #bd3944; 
+    }
+    a:hover {
+        color: midnightblue;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+    
+    nav ul li:first-child {
+        margin-left: 0;
+    }
+}
+    
+}
